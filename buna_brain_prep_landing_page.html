@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buna Brain Prep | Ace Your Grades</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+            100% { transform: translateY(0px); }
+        }
+        .float-animation { animation: float 4s ease-in-out infinite; }
+        .gradient-bg { background: linear-gradient(135deg, #4a2c1a 0%, #7b4b2c 100%); }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900 font-sans selection:bg-orange-200">
+
+    <!-- Navigation -->
+    <nav class="flex justify-between items-center py-6 px-8 lg:px-24">
+        <div class="text-2xl font-bold tracking-tight text-orange-900">Buna<span class="text-orange-600">Brain</span></div>
+        <a href="mailto:bunabrainprep@gmail.com" class="bg-orange-600 text-white px-6 py-2 rounded-full font-medium hover:bg-orange-700 transition shadow-lg">Contact Us</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="container mx-auto px-8 lg:px-24 py-16 lg:py-24 grid lg:grid-cols-2 gap-12 items-center">
+        <div>
+            <span class="inline-block py-1 px-3 rounded-full bg-orange-100 text-orange-800 text-sm font-semibold mb-6">#1 Oromo Student Study Channel</span>
+            <h1 class="text-5xl lg:text-7xl font-extrabold leading-tight mb-6">Brewing <br><span class="text-orange-600">Top Marks</span> Together.</h1>
+            <p class="text-lg text-slate-600 mb-8 max-w-lg">Your ultimate chill study spot. We break down tough exams into fun, easy-to-understand guides. Fuel your mind and ace your grade!</p>
+            <div class="flex gap-4">
+                <button class="bg-slate-900 text-white px-8 py-4 rounded-xl font-bold hover:bg-slate-800 transition">Subscribe Now</button>
+            </div>
+        </div>
+
+        <!-- 3D Style Animated Element -->
+        <div class="relative float-animation">
+            <div class="w-full h-80 rounded-[3rem] gradient-bg shadow-2xl flex items-center justify-center relative overflow-hidden">
+                <div class="text-[120px]">☕🧠</div>
+                <div class="absolute -bottom-6 -right-6 w-32 h-32 bg-orange-400 rounded-full blur-3xl opacity-30"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section class="container mx-auto px-8 lg:px-24 py-16 bg-white rounded-3xl mb-24 shadow-sm">
+        <div class="grid md:grid-cols-3 gap-12">
+            <div class="text-center">
+                <div class="text-4xl mb-4">📝</div>
+                <h3 class="text-xl font-bold mb-2">Clear Tutorials</h3>
+                <p class="text-slate-500">Step-by-step guides that actually make sense.</p>
+            </div>
+            <div class="text-center">
+                <div class="text-4xl mb-4">💡</div>
+                <h3 class="text-xl font-bold mb-2">Exam Hacks</h3>
+                <p class="text-slate-500">Smart tips to save time and score higher.</p>
+            </div>
+            <div class="text-center">
+                <div class="text-4xl mb-4">🚀</div>
+                <h3 class="text-xl font-bold mb-2">Boosted Marks</h3>
+                <p class="text-slate-500">Go from confused to confident in no time.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-12 border-t">
+        <p class="text-slate-400 font-medium">© 2026 Buna Brain Prep. Never Settle. Do More!</p>
+    </footer>
+
+</body>
+</html>
